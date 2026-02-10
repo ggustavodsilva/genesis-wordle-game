@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: auto;
+  min-height: 100%;
+  overflow-y: auto;
+}
+
+body {
+  background-color: #0e0e0e;
+  color: #eaeaea;
+  font-family: Arial, sans-serif; 
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 0;
+}
+
+.container {
+  background: #1b1b1b;
+  padding: 30px;
+  border-radius: 10px;
+  width: 420px;
+  text-align: center;
+}
+
+input, button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+}
+
+#tentativas {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#resultado {
+font-size: 1.2rem;
+margin-top: 20px;
+}
+
+.linha {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+
+.bloquinho {
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.verde {
+  background-color: #1e7f43;
+}
+
+.vermelho {
+  background-color: #7f1e1e;
+}
+
+.categoria {
+  margin-bottom: 10px;
+}
+
+.titulo-categoria {
+  font-weight: bold;
+  font-size: 0.85rem;
+  opacity: 0.8;
+  display: block;
+  margin-bottom: 4px;
+  text-align: left;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #333;
+  margin: 15px 0;
+}
+
+.frase-personagem {
+  font-style: italic;
+  color: #888;
+  margin-top: 5px;
+}

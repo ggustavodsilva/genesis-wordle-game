@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Genesisordle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>📓 Genesisordle</h1>
+
+    <p> Descubra o personagem de Genesis RPG!</p>
+
+
+    <datalist id="lista-personagens"></datalist>
+
+    
+    <div id="tentativas"></div>
+    <div id="resultado"></div>  
+
+<input
+      type="text"
+      id="resposta"
+      placeholder="Digite o nome do personagem"
+      list="lista-personagens"
+      autocomplete="off"
+      autocorrect="off"
+      autocapitalize="off"
+      spellcheck="false"
+    />
+
+    <button id="btn-reiniciar" style="display: none;">
+    🔄 Jogar novamente
+    </button>
+
+  </div>
+
+  <script type="module" src="services/main.js"></script>    
+</body>
+</html>
