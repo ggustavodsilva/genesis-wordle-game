@@ -1,11 +1,13 @@
 // DADOS DOS PERSONAGENS
 export const personagens = [
+
+  // PROTAGONISTAS
   {
     nome: "Eduardo",
-    frase: "Ele quer mover até da forma que me movo.",
+    frase: "É TUDO OU NADA!",
     estado: "Vivo",
     classe: "Ocultista",
-    grupo: ["Esquadrão Ômega", "Equipe Genesis"],
+    grupo: ["Esquadrão Ômega", "Equipe Gênesis"],
     ocupacao: ["Líder", "Piloto", "Agente"],
   },
   {
@@ -13,7 +15,7 @@ export const personagens = [
     frase: "Como você disse, sem testemunhas.",
     estado: "Vivo",
     classe: "Especialista",
-    grupo: ["Esquadrão Ômega", "Equipe Genesis"],
+    grupo: ["Esquadrão Ômega", "Equipe Gênesis"],
     ocupacao: ["Líder", "Piloto", "Caminhoneiro", "Agente"],
   },
 {
@@ -21,15 +23,15 @@ export const personagens = [
     frase: "Por que eu não saí do carro?",
     estado: "Vivo",
     classe: "Especialista",
-    grupo: ["Equipe Genesis", "Escola Paulaceia Desvairada"],
-    ocupacao: ["Dançarina", "Atendente"],
+    grupo: ["Equipe Gênesis", "Escola Paulaceia Desvairada"],
+    ocupacao: ["Dançarino", "Atendente"],
   },
   {
     nome: "Ester",
     frase: "Se for para me matar, você e a puta da sua irmã vão queimar no inferno, seu esquisito.",
     estado: "Vivo",
     classe: "Combatente",
-    grupo: ["Equipe Genesis", "Circo", "Gang de Motoqueiros"],
+    grupo: ["Equipe Gênesis", "Circo", "Gang de Motoqueiros"],
     ocupacao: ["Escoteiro", "Ginasta"],
   },
   {
@@ -37,7 +39,7 @@ export const personagens = [
     frase: "Me diz um número de 1 a 30.",
     estado: "Morto",
     classe: "Ocultista",
-    grupo: ["Equipe Genesis"],
+    grupo: ["Equipe Gênesis"],
     ocupacao: ["Universitário"],
   },
   {
@@ -45,7 +47,7 @@ export const personagens = [
     frase: "Ahn? Você leu o livro?",
     estado: "Morto",
     classe: "Especialista",
-    grupo: ["Equipe Genesis"],
+    grupo: ["Equipe Gênesis"],
     ocupacao: ["Escritor"],
   },
   {
@@ -53,7 +55,7 @@ export const personagens = [
     frase: "Quer ver uma mágica? Escolhe uma carta.",
     estado: "Vivo",
     classe: "Ocultista",
-    grupo: ["Esquadrão Ômega", "Equipe Genesis", "Circo", "Entidade", "Paranormal"],
+    grupo: ["Esquadrão Ômega", "Equipe Gênesis", "Circo", "Entidade", "Paranormal"],
     ocupacao: ["Palhaço", "Agente"],
   },
   {
@@ -61,7 +63,7 @@ export const personagens = [
     frase: "Oiiii rsrs.",
     estado: "Vivo",
     classe: "Ocultista",
-    grupo: ["Equipe Genesis"],
+    grupo: ["Equipe Gênesis"],
     ocupacao: ["Nutricionista"],
   },
   {
@@ -69,15 +71,18 @@ export const personagens = [
     frase: "",
     estado: "Vivo",
     classe: "Especialista",
-    grupo: ["Ordo Realitas", "Equipe Genesis"],
+    grupo: ["Ordo Realitas", "Equipe Gênesis"],
     ocupacao: ["Blogueiro", "Agente", "Pesquisador Paranormal"],
   },
+
+  // NPCS PRINCIPAIS
+
   {
     nome: "Santiago",
     frase: "Vocês são tipo heróis, né?... err, anti-heróis?",
     estado: "Vivo",
     classe: "Mundano",
-    grupo: ["Equipe Genesis", "Ganiel", "Mercadinho dos Santos"],
+    grupo: ["Equipe Gênesis", "Ganiel", "Mercadinho dos Santos"],
     ocupacao: ["Dono de Mercado"],
   },
   {
@@ -90,12 +95,14 @@ export const personagens = [
   },
   {
     nome: "Leonardo",
-    frase: "",
+    frase: "O QUÊ? Nunca tiveram girafas no amazonas?",
     estado: "Vivo",
     classe: "Combatente",
     grupo: ["Equipe Marotos", "Dupla de Sorte"],
     ocupacao: ["Freelancer Paranormal"],
   },
+
+  // ANIMAIS
   {
     nome: "Luke",
     frase: "Au Au!",
@@ -112,12 +119,14 @@ export const personagens = [
     grupo: ["Entidade", "Paranormal"],
     ocupacao: ["Pet"],
   },
+
+  // VILÓES
   {
     nome: "Samuel",
     frase: "Que preguiça...",
     estado: "Morto",
     classe: "Combatente",
-    grupo: ["Ganiel", "Culto de Genesis"],
+    grupo: ["Ganiel", "Culto de Gênesis"],
     ocupacao: ["Braço direito", "Segurança"],
   },
   {
@@ -125,7 +134,7 @@ export const personagens = [
     frase: "Moacir? Ele é a blasfêmia encarnada.",
     estado: "Morto",
     classe: "Especialista",
-    grupo: ["Ganiel", "Culto de Genesis"],
+    grupo: ["Ganiel", "Culto de Gênesis"],
     ocupacao: ["Escritor", "Cientista", "Praticante de Ocultismo", "Pesquisador Paranormal"],
   },
   {
@@ -133,9 +142,11 @@ export const personagens = [
     frase: "Deus foi incompetente ao criar o mundo, mas eu não serei.",
     estado: "Amalgamado",
     classe: "Ocultista",
-    grupo: ["Culto de Genesis"],
+    grupo: ["Culto de Gênesis"],
     ocupacao: ["Líder", "Ídolo", "Deus"],
   },
+
+  // ORDO REALITAS
   {
     nome: "Morto",
     frase: "Eu? Morrer? Tenta de novo.",
@@ -146,7 +157,7 @@ export const personagens = [
   },
   {
     nome: "Peste",
-    frase: "",
+    frase: "É... Você não é tão espertinha assim.",
     estado: "Vivo",
     classe: "Especialista",
     grupo: ["Ordo Realitas", "Equipe Matheus"],
@@ -168,12 +179,26 @@ export const personagens = [
     grupo: ["Ordo Realitas", "Equipe Inexistência"],
     ocupacao: ["Líder", "Veríssimo", "Agente", "Palhaço"],    
   },
+
+  // LORE
   {
     nome: "Kauane",
     frase: "Agora você me conheceu! Você não é mais sozinha.",
     estado: "Morto",
     classe: "Mundano",
     grupo: ["Escola Paulaceia Desvairada"],
-    ocupacao: ["Dançarina"],    
+    ocupacao: ["Dançarino"],
   }
 ]
+
+/* TEMPLATE PARA ADICIONAR PERSONAGEM
+{
+    nome: "",
+    frase: "",
+    estado: ",
+    classe: "",
+    grupo: [""],
+    ocupacao: [""],
+  }
+
+*/
