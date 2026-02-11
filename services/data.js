@@ -76,13 +76,12 @@ export const personagens = [
   },
 
   // NPCS PRINCIPAIS
-
   {
     nome: "Santiago",
     frase: "Vocês são tipo heróis, né?... err, anti-heróis?",
     estado: "Vivo",
     classe: "Mundano",
-    grupo: ["Equipe Gênesis", "Ganiel", "Mercadinho dos Santos"],
+    grupo: ["Equipe Gênesis", "Cidadezinha de Ganiel", "Mercadinho dos Santos"],
     ocupacao: ["Dono de Mercado"],
   },
   {
@@ -126,7 +125,7 @@ export const personagens = [
     frase: "Que preguiça...",
     estado: "Morto",
     classe: "Combatente",
-    grupo: ["Ganiel", "Culto de Gênesis"],
+    grupo: ["Cidadezinha de Ganiel", "Culto de Gênesis"],
     ocupacao: ["Braço direito", "Segurança"],
   },
   {
@@ -134,7 +133,7 @@ export const personagens = [
     frase: "Moacir? Ele é a blasfêmia encarnada.",
     estado: "Morto",
     classe: "Especialista",
-    grupo: ["Ganiel", "Culto de Gênesis"],
+    grupo: ["Cidadezinha de Ganiel", "Culto de Gênesis"],
     ocupacao: ["Escritor", "Cientista", "Praticante de Ocultismo", "Pesquisador Paranormal"],
   },
   {
@@ -177,7 +176,7 @@ export const personagens = [
     estado: "Vivo",
     classe: "Especialista",
     grupo: ["Ordo Realitas", "Equipe Inexistência"],
-    ocupacao: ["Líder", "Veríssimo", "Agente", "Palhaço"],    
+    ocupacao: ["Veríssimo", "Líder", "Agente", "Palhaço"],    
   },
 
   // LORE
@@ -188,17 +187,50 @@ export const personagens = [
     classe: "Mundano",
     grupo: ["Escola Paulaceia Desvairada"],
     ocupacao: ["Dançarino"],
+  },
+
+  // ESQUADRÃO ÔMEGA
+  {
+    nome: "Augusto",
+    frase: "Por favor, Deus... me dê forças para levar mais um.",
+    estado: "Vivo",
+    classe: "Combatente",
+    grupo: ["Esquadrão Ômega"],
+    ocupacao: ["Chefe", "Líder", "Agente", "Ginasta", "Praticante de Ocultismo"],
+  },
+  {
+    nome: "Heimerdinger",
+    frase: "Que surpresa é essa? Esse é meu nome... verdadeiro...",
+    estado: "Vivo",
+    classe: "Especialista",
+    grupo: ["Esquadrão Ômega"],
+    ocupacao: ["Braço direito", "Agente", "Cientista", "Pesquisador Paranormal", "Praticante de Ocultismo"],
+  },
+  {
+    nome: "Daniel",
+    frase: "Hm.. Pode ser interessante... Me liga depois.",
+    estado: "Morto",
+    classe: "Ocultista",
+    grupo: ["Esquadrão Ômega"],
+    ocupacao: ["Agente", "Infiel"],
+  },
+  {
+    nome: "Kurt",
+    frase: "Ai meu Deus, trouxeram uma criança para base? Só mata isso logo.",
+    estado: "Morto",
+    classe: "Combatente",
+    grupo: ["Esquadrão Ômega", "Lagartos de Ferro"],
+    ocupacao: ["Agente", "Músico"],
   }
 ]
 
 /* TEMPLATE PARA ADICIONAR PERSONAGEM
-{
+  {
     nome: "",
     frase: "",
-    estado: ",
+    estado: "",
     classe: "",
     grupo: [""],
     ocupacao: [""],
   }
-
 */
