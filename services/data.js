@@ -1,6 +1,8 @@
 // DADOS DOS PERSONAGENS
 export const personagens = [
 
+  // 35 PERSONAGENS
+
   // PROTAGONISTAS
   {
     nome: "Eduardo",
@@ -18,7 +20,7 @@ export const personagens = [
     grupo: ["Esquadrão Ômega", "Equipe Gênesis"],
     ocupacao: ["Líder", "Piloto", "Caminhoneiro", "Agente"],
   },
-{
+  {
     nome: "Maya",
     frase: "Por que eu não saí do carro?",
     estado: "Vivo",
@@ -36,15 +38,15 @@ export const personagens = [
   },
   {
     nome: "Jonatham",
-    frase: "Me diz um número de 1 a 30.",
+    frase: "Vamos, me diga um número de 1 a 30.",
     estado: "Morto",
     classe: "Ocultista",
-    grupo: ["Equipe Gênesis"],
+    grupo: ["Esquadrão Ômega", "Equipe Gênesis"],
     ocupacao: ["Universitário"],
   },
   {
     nome: "Ricardo",
-    frase: "Ahn? Você leu o livro?",
+    frase: "Ahn? Você leu o livro, menina?",
     estado: "Morto",
     classe: "Especialista",
     grupo: ["Equipe Gênesis"],
@@ -59,7 +61,7 @@ export const personagens = [
     ocupacao: ["Palhaço", "Agente"],
   },
   {
-    nome: "Paulette",
+    nome: "Paulette Priguette",
     frase: "Oiiii rsrs.",
     estado: "Vivo",
     classe: "Ocultista",
@@ -68,7 +70,7 @@ export const personagens = [
   },
   {
     nome: "Lilian",
-    frase: "",
+    frase: "VOCÊ É O ESCRITOR? NÃO ACREDITO QUE TO TE CONHECENDO!",
     estado: "Vivo",
     classe: "Especialista",
     grupo: ["Ordo Realitas", "Equipe Gênesis"],
@@ -77,7 +79,7 @@ export const personagens = [
 
   // NPCS PRINCIPAIS
   {
-    nome: "Santiago",
+    nome: "Santiago dos Santos",
     frase: "Vocês são tipo heróis, né?... err, anti-heróis?",
     estado: "Vivo",
     classe: "Mundano",
@@ -85,8 +87,8 @@ export const personagens = [
     ocupacao: ["Dono de Mercado"],
   },
   {
-    nome: "Kaio",
-    frase: "E aí, do you wanna dance?",
+    nome: "Kaio Sortê",
+    frase: "E então, xerife, do you wanna dance?",
     estado: "Desconhecido",
     classe: "Ocultista",
     grupo: ["Agente Solo", "Dupla de Sorte"],
@@ -122,15 +124,15 @@ export const personagens = [
   // VILÓES
   {
     nome: "Samuel",
-    frase: "Que preguiça...",
+    frase: "Não ouse falar assim dela!",
     estado: "Morto",
     classe: "Combatente",
-    grupo: ["Cidadezinha de Ganiel", "Culto de Gênesis"],
+    grupo: ["Cidadezinha de Ganiel", "Culto de Gênesis", "Prefeitura de Ganiel"],
     ocupacao: ["Braço direito", "Segurança"],
   },
   {
     nome: "Escritor",
-    frase: "Moacir? Ele é a blasfêmia encarnada.",
+    frase: "Função do Moacir? Ele é a blasfêmia encarnada.",
     estado: "Morto",
     classe: "Especialista",
     grupo: ["Cidadezinha de Ganiel", "Culto de Gênesis"],
@@ -160,7 +162,7 @@ export const personagens = [
     estado: "Vivo",
     classe: "Especialista",
     grupo: ["Ordo Realitas", "Equipe Matheus"],
-    ocupacao: ["Agente", "Pesquisador Paranormal", "Cientista", "Engenheiro de Explosivos"],
+    ocupacao: ["Matheus", "Agente", "Pesquisador Paranormal", "Cientista", "Engenheiro de Explosivos"],
   },
   {
     nome: "Matheus",
@@ -176,7 +178,7 @@ export const personagens = [
     estado: "Vivo",
     classe: "Especialista",
     grupo: ["Ordo Realitas", "Equipe Inexistência"],
-    ocupacao: ["Veríssimo", "Líder", "Agente", "Palhaço"],    
+    ocupacao: ["Veríssimo", "Líder", "Agente", "Palhaço"],
   },
 
   // LORE
@@ -187,6 +189,14 @@ export const personagens = [
     classe: "Mundano",
     grupo: ["Escola Paulaceia Desvairada"],
     ocupacao: ["Dançarino"],
+  },
+  {
+    nome: "Janette Priguette",
+    frase: "Minha nossa!! Ricardo, né? Você você tá tão ferido, tadinho.",
+    estado: "Morto",
+    classe: "Mundano",
+    grupo: ["Cidadezinha de Ganiel", "Hospital de Ganiel"],
+    ocupacao: ["Enfermeira"],
   },
 
   // ESQUADRÃO ÔMEGA
@@ -221,6 +231,74 @@ export const personagens = [
     classe: "Combatente",
     grupo: ["Esquadrão Ômega", "Lagartos de Ferro"],
     ocupacao: ["Agente", "Músico"],
+  },
+
+  // CIDADEZINHA DE GANIEL
+  {
+    nome: "France",
+    frase: "Precisando de ajuda, mon cœur?",
+    estado: "Vivo",
+    classe: "Mundano",
+    grupo: ["Cidadezinha de Ganiel"],
+    ocupacao: ["Desconhecido"],
+  },
+  {
+    nome: "Alisson, o Xerife",
+    frase: "Se depender de mim, essa cidade sempre vai estar segura.",
+    estado: "Desconhecido",
+    classe: "Mundano",
+    grupo: ["Cidadezinha de Ganiel", "Prefeitura de Ganiel"],
+    ocupacao: ["Xerife", "Segurança", "Infiel"],
+  },
+  {
+    nome: "Ferdinando, o Prefeito",
+    frase: "Já sei! Por que não passam mais uma noite na cidade e voltam aqui amanhã?",
+    estado: "Morto",
+    classe: "Mundano",
+    grupo: ["Cidadezinha de Ganiel", "Prefeitura de Ganiel", "Culto de Gênesis"],
+    ocupacao: ["Prefeito"],
+  },
+  {
+    nome: "Francisco dos Santos",
+    frase: "Claro, Santiago, você que é o dono de todo esse mercado aqui hahah.",
+    estado: "Vivo",
+    classe: "Mundano",
+    grupo: ["Cidadezinha de Ganiel", "Mercadinho dos Santos"],
+    ocupacao: ["Atendente", "Padeiro"],
+  },
+  {
+    nome: "Cinthia dos Santos",
+    frase: "Salavando número de mulher, Francisco?!",
+    estado: "Vivo",
+    classe: "Mundano",
+    grupo: ["Cidadezinha de Ganiel", "Mercadinho dos Santos"],
+    ocupacao: ["Atendente", "Padeiro"],
+  },
+
+  // - Familia vidal
+  {
+    nome: "Isaac Vidal",
+    frase: "É sério, eu não sei do que vocês estão falando, mas eu preciso ir buscar meu filho lá na frente",
+    estado: "Morto",
+    classe: "Mundano",
+    grupo: ["Cidadezinha de Ganiel", "Família Vidal"],
+    ocupacao: ["Experimento", "Operador de máquina"],
+  },
+  {
+    nome: "Lissa Vidal",
+    frase: "Agora é Ester, né?",
+    estado: "Morto",
+    classe: "Ocultista",
+    grupo: ["Cidadezinha de Ganiel", "Família Vidal"],
+    ocupacao: ["Experimento"],
+  },
+  {
+    nome: "Moacir Vidal",
+    frase: "Por que você está me puxando, menina? Eu quero ficar aqui",
+    estado: "Vivo",
+    classe: "Mundano",
+    grupo: ["Cidadezinha de Ganiel", "Família Vidal"],
+    ocupacao: ["Experimento"],
   }
 ]
 
